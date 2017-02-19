@@ -20,7 +20,7 @@ The first lab component is learning to make an LED blink with the arduino.  To d
 
 	digitalWrite(13, HIGH) 
 we can set pin 13 high, which is 5v on standard arduinos (some arduino variants operate at 3.3 V but we won't be using those for these labs).
-[Here](~/ComponentOne/README.md) is the code for a sample Blink sketch, that sets pin 13 HIGH for 1 second, then sets it LOW for another, then repeats.
+[Here](ComponentOne/README.md) is the code for a sample Blink sketch, that sets pin 13 HIGH for 1 second, then sets it LOW for another, then repeats.
 
 ### Second Component
 The second component is to learn about arduino logic and learning to use *input* as well as *output*. We will be using several methods, primarily `digitalRead(IN_PIN)`.  This method reads the state of a pin as either HIGH, or LOW, similar to the output `digitalWrite()`.  Through 
