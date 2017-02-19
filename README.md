@@ -1,6 +1,6 @@
 #Microcontroller Lab1
 
-This lab is an introduction to Arduino Microcontrollers. In this lab, you will be familiarized with the Arduino platform, and how do develop for it. Arduinos are an open source microcontroller, developed to democratize access to microcontrollers. 
+This lab is an introduction to Arduino Microcontrollers. In this lab, you will be familiarized with the Arduino platform, and how do develop for it. Arduinos are an open source microcontroller, developed to democratize access to microcontrollers. <Insert description of hardware here> 
 
 Arduionos are controlled through somethign called __sketches__, which are the arduino code format. A __sketch__ has two parts, `setup()` and `loop()`.  `setup()` is code that runs once, on startup, while *loop()* runs infinitely, continuously repeating. You can think of `loop()` as a `while(True)` loop.  This is where program logic should go. 
 
