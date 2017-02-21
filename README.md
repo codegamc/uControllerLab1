@@ -30,13 +30,8 @@ we set the variable `state` to the value retrieved through `digitalRead(13)`, wh
 We will expand upon the basic premise of the Second Component by adding a Serial Monitor to the arduino code, so we can see the state of the system on our computer.  This will also introduce us to an important concept called __Debouncing__, which you will discover more about in the second exercise of this component.  This will also introduce you to Boolean Logic on an Arduino.
 
 ### Third Component
-This is analog in with Potentiometer
-			Timing the length the LED will  be on
-			Timing methods
-			
-### Fourth Component
-PWM that LED
-			Pot controls the brightness
+
+In the third component, we will be using a potentiometer to control the brightness of an LED.  The LED is controlled via PWM, and the analog potentiometer input values are transmitted to our computers using the built in Serial Monitor
 			
 ## Closing thougts
 This is closing thoughts.
