@@ -16,7 +16,7 @@ To learn about the arduino platform, we will be doing a series of labs.  For tod
 	Several Resistors: 1k, 10k
 
 ### First Component
-The first lab component is learning to make an LED blink with the arduino.  To do this, we use the digital I/O of the arduino to set pin 13 high. To accomplish this, we use the method `digitalWrite(PIN, STATE)`.  This method can set the seceted PIN to be either high (__5v__), or low (__GND__). Through 
+The first lab component is learning to make an LED blink with the arduino.  To do this, we use the digital I/O of the arduino to set pin 13 high. To accomplish this, we use the method `digitalWrite(PIN, STATE)`.  This method can set the selected PIN to be either high (__5v__), or low (__GND__). Through 
 
 	digitalWrite(13, HIGH) 
 we can set pin 13 high, which is 5v on standard arduinos (some arduino variants operate at 3.3 V but we won't be using those for these labs).
