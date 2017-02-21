@@ -1,1 +1,3 @@
 #Component Two
+
+In Component Two we will be learning about...
