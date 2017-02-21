@@ -15,3 +15,5 @@ Circuit Here
 Now that we are ready to program the arduino, the second step is to write the code. 
 
 In the `setup()` method, initialize your pin from step one as an output. To do this, use the *pinmode* method: `pinMode(13, OUTPUT);`.  This sets pin `13` to be an `output`.
+
+ Now, we have to edit the `loop()` method, including code that turns on pin, a timer, and code that turns off the pin.  These functions are `digitalWrite()` and `delay()`.  *digitalWrite* takes two arguments, an `int` cooresponding to the pin, and either `HIGH` or `LOW`.  *delay* takes one argument, an `int` cooresponding to the length of the delay, in milliseconds. 
