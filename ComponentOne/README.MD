@@ -26,4 +26,4 @@ The third step is to compile the code, and debug as needed.  Find the Check Butt
 
 ### Step Four
 
-The fourth step is to run the code on the board.  Find teh Upload Button, and click it.
+The fourth step is to run the code on the board.  Find the Upload Button, and click it.
