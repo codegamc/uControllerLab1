@@ -26,7 +26,7 @@ we can set pin 13 high, which is 5v on standard arduinos (some arduino variants 
 The second component is to learn about arduino logic and learning to use *input* as well as *output*. We will be using several methods, primarily `digitalRead(IN_PIN)`.  This method reads the state of a pin as either HIGH, or LOW, similar to the output `digitalWrite()`.  Through 
 
 	state = digitalRead(13);
-we set the variable `state` to the value retrieved through `digitalRead(13)`, which is the value of pin 13. (Here)[ComponentTwo/README.md] is the source code for a Button sketch, with the accompanying circuit diagram (here)[source].
+we set the variable `state` to the value retrieved through `digitalRead(13)`, which is the value of pin 13. [Here](ComponentTwo/README.md) is the source code for a Button sketch, with the accompanying circuit diagram (here)[source].
 
 We will expand upon the basic premise of the Second Component by adding a Serial Monitor to the arduino code, so we can see the state of the system on our computer.  This will also introduce us to an important concept called __Debouncing__, which you will discover more about in the second exercise of this component.  This will also introduce you to Boolean Logic on an Arduino.
 
