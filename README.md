@@ -20,13 +20,12 @@ The first lab component is learning to make an LED blink with the arduino.  To d
 
 	digitalWrite(13, HIGH) 
 we can set pin 13 high, which is 5v on standard arduinos (some arduino variants operate at 3.3 V but we won't be using those for these labs).
-[Here](ComponentOne/README.MD) is the code for a sample Blink sketch, that sets pin 13 HIGH for 1 second, then sets it LOW for another, then repeats.
 
 ### Second Component
 The second component is to learn about arduino logic and learning to use *input* as well as *output*. We will be using several methods, primarily `digitalRead(IN_PIN)`.  This method reads the state of a pin as either HIGH, or LOW, similar to the output `digitalWrite()`.  Through 
 
 	state = digitalRead(13);
-we set the variable `state` to the value retrieved through `digitalRead(13)`, which is the value of pin 13. [Here](ComponentTwo/README.md) is the source code for a Button sketch.
+we set the variable `state` to the value retrieved through `digitalRead(13)`, which is the value of pin 13. 
 
 We will expand upon the basic premise of the Second Component by adding a Serial Monitor to the arduino code, so we can see the state of the system on our computer.  This will also introduce us to an important concept called __Debouncing__, which you will discover more about in the second exercise of this component.  This will also introduce you to Boolean Logic on an Arduino.
 
