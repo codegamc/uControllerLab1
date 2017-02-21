@@ -9,7 +9,7 @@ Note on the arduino language from the arduino website:
 	The Arduino language is based on C/C++. It links against AVR Libc and allows the use of any of its functions; see its user manual for details. 
 
 
-To learn about the arduino platform, we will be doing a series of labs.  For todays lab __(Lab1)__, we will be using the following parts:
+To learn about the arduino platform, we will be doing a series of labs.  For today's lab __(Lab1)__, we will be using the following parts:
 
 	Red LED
 	Potentiometer
